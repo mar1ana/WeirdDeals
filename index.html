@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weird Deals Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js" async></script>
+
+</head>
+
+<body>
+<h1>Weird Deals Registration</h1>
+<p>Want exclusive deals on the Weirdest items around? Register to view our top 5 weird Deals of the day!</p>
+<div class="container">
+    <form action="deals.html">
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="Enter first name" id="fname" required />
+        <label for="lname">Last Name:</label>
+        <input type="text" placeholder="Enter last name" id="lname" required />
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email address" id="email" required />
+        <label for="age">Age:</label>
+        <input type="text" placeholder="Enter your age" id="age" required />
+        <label for="location">Location:</label>
+        <select id="location" name="location-drop" onchange="ChangeDropDown(this);">
+            <option value="" selected disabled hidden>Select your location</option>
+            <option value="barrie">Barrie</option>
+            <option value="collingwood">Collingwood</option>
+            <option value="innisfil">Innisfil</option>
+            <option value="orillia">Orillia</option>
+            <option value="toronto">Toronto</option>
+            <option value="vaughan">Vaughan</option>
+            <option value="">Other...</option>
+        </select> <input type="text" placeholder="Enter your location" name="location-txt" style="display: none;" />
+        <input class="btn btn-2 btn-2g" type="submit" id="submit" value="Submit" />
+    </form>
+</div>
+<footer>
+    Copyright &copy; 2019 Mariana Lima Inc. All Rights Reserved.
+</footer>
+</body>
+
+</html>

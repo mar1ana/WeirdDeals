@@ -1,0 +1,38 @@
+{
+  "companyName": "Weird Deals",
+    "headOffice": "Barrie, Canada",
+    "established": 2019,
+    "active": true,
+  "topDeals": [
+    {
+      "name" : "1500 Live Ladybugs",
+      "price" : 3.50,
+      "description" : "1500 Live Ladybugs, Live Delivery Guaranteed!!Includes a Ladybug educational sheet with Fun Facts and FAQ's. Ladybugs are general predators that feed on a variety of slow-moving insects. Great for kids, birthday parties, and school projects!",
+      "image": "live-ladybugs.jpg"
+    },
+    {
+      "name" : "Cat Butt Tissue Holder",
+      "price" : 35.51,
+      "description" : "Black & white tuxedo cat tissue paper dispenser, fits standard square tissue box, made of resin",
+      "image": "cat-tissue.jpg"
+    },
+    {
+      "name" : "Dill Pickle Lip Balm",
+      "price" : 11.95,
+      "description" : "This standard size pickle lip balm comes in a green 4.5g tube which features a happy pickle suggesting you “pucker up!”. Made in the USA – Encouraging dill pickle kisses everywhere",
+      "image": "pickle-lip-balm.jpg"
+    },
+    {
+      "name" : "Dog Wig",
+      "price" : 6.99,
+      "description" : "Rubie's Costume Company Pet Wig with a high ponytail, fits most small/medium dogs. Perfect for your sassy companion! Could also fit on bigger cats!",
+      "image": "dog-wig.jpg"
+    },
+    {
+      "name" : "The Gift of Nothing",
+      "price" : 6.98,
+      "description" : "What do you get for the person who has everything? Nothing—literally. But unlike the traditional nothing, this one will cost you almost $7!",
+      "image": "nothing.jpg"
+    }
+  ]
+}
